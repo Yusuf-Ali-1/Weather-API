@@ -26,10 +26,10 @@ public class WeatherService {
 		    response.setName("error");
 		    return response;
 		}
-	}
-}
-
 		
+	}
+	
+}
 
 	
 	

@@ -1,8 +1,14 @@
 package com.tts.WeatherApp;
 
 
+
+
 public class Request {
-    @Override
+    public Request() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
 	public String toString() {
 		return "Request [zipCode=" + zipCode + "]";
 	}
@@ -15,5 +21,6 @@ public class Request {
 		this.zipCode = zipCode;
 	}
 
+	
 	private String zipCode;
 }
